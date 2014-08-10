@@ -22,4 +22,5 @@
               "alt-shift-down" [:editor.sublime.swapLineDown]
               "cmd-backspace" [:editor.delete-line]
               "ctrl-g" [:editor.sublime.selectNextOccurrence]
-              "cmd-shift-d" [:editor.sublime.duplicateLine]}}}
+              "cmd-shift-d" [:editor.sublime.duplicateLine]
+              "cmd-shift-8" [:editor.sublime.splitSelectionByLine]}}}
