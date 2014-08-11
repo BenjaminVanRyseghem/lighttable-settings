@@ -18,6 +18,7 @@
      :editor {"alt-w" [:editor.watch.watch-selection]
               "alt-shift-w" [:editor.watch.unwatch]
               "cmd-/" [:toggle-comment-selection]
+              "ctrl-d" [:editor.doc.toggle]
               "alt-shift-up" [:editor.sublime.swapLineUp]
               "alt-shift-down" [:editor.sublime.swapLineDown]
               "cmd-backspace" [:editor.delete-line]
