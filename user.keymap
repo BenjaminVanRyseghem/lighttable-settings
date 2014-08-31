@@ -15,14 +15,28 @@
            "pmeta-ctrl-shift-d" [:docs.search.show]
            }
 
-     :editor {"alt-w" [:editor.watch.watch-selection]
+     :editor {"alt-shift-down" [:editor.sublime.swapLineDown]
+              "alt-shift-up" [:editor.sublime.swapLineUp]
               "alt-shift-w" [:editor.watch.unwatch]
+              "alt-up" [:editor.sublime.selectScope]
+              "alt-w" [:editor.watch.watch-selection]
               "cmd-/" [ :toggle-comment-selection
                         :editor.line-down ]
-              "ctrl-d" [:editor.doc.toggle]
-              "alt-shift-up" [:editor.sublime.swapLineUp]
-              "alt-shift-down" [:editor.sublime.swapLineDown]
+              "cmd-[" [:paredit-plus.wrap-square]
               "cmd-backspace" [:editor.delete-line]
-              "ctrl-g" [:editor.sublime.selectNextOccurrence]
+              "cmd-shift-'" [:paredit-plus.wrap-quote]
+              "cmd-shift-8" [:editor.sublime.splitSelectionByLine]
+              "cmd-shift-9" [:paredit-plus.wrap-round]
+              "cmd-shift-[" [:paredit-plus.wrap-curly]
               "cmd-shift-d" [:editor.sublime.duplicateLine]
-              "cmd-shift-8" [:editor.sublime.splitSelectionByLine]}}}
+              "ctrl-cmd-s" [:editor.sublime.sortLines]
+              "ctrl-d" [:editor.doc.toggle]
+              "ctrl-g" [:editor.sublime.selectNextOccurrence]
+              "ctrl-left" [:editor.sublime.goToBracket]
+              "ctrl-right" [:editor.sublime.goToBracket]
+              "ctrl-shift-left" [:subpar.shrink.right
+                                 :editor.char-left
+                                 :paredit.select.clear]
+              "ctrl-shift-right" [:subpar.grow.right]
+              "ctrl-shift-up" [:paredit-plus.splice-sexp]
+              "shift-forward-delete" [:editor.delete-group-right]}}}
