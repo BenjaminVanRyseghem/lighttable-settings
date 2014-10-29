@@ -15,7 +15,8 @@
            "pmeta-ctrl-shift-d" [:docs.search.show]
            }
 
-     :editor {"alt-shift-down" [:editor.sublime.swapLineDown]
+     :editor {"alt-esc" [:clear-inline-results]
+              "alt-shift-down" [:editor.sublime.swapLineDown]
               "alt-shift-up" [:editor.sublime.swapLineUp]
               "alt-shift-w" [:editor.watch.unwatch]
               "alt-up" [:editor.sublime.selectScope]
@@ -40,4 +41,5 @@
               "ctrl-shift-right" [:subpar.grow.right]
               "ctrl-shift-up" [:paredit-plus.splice-sexp]
               "shift-forward-delete" [:editor.delete-group-right]}}}
+              "shift-esc" [:clear-console]
               "shift-tab" [:snippet.by_token]}}}
