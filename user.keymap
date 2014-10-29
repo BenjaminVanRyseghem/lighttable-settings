@@ -30,7 +30,6 @@
               "cmd-shift-9" [:paredit-plus.wrap-round]
               "cmd-shift-[" [:paredit-plus.wrap-curly]
               "cmd-shift-d" [:editor.sublime.duplicateLine]
-              "ctrl-cmd-s" [:editor.sublime.sortLines]
               "ctrl-d" [:editor.doc.toggle]
               "ctrl-g" [:editor.sublime.selectNextOccurrence]
               "ctrl-left" [:editor.sublime.goToBracket]
@@ -39,6 +38,7 @@
                                  :editor.char-left
                                  :paredit.select.clear]
               "ctrl-shift-right" [:subpar.grow.right]
+              "ctrl-shift-s" [:lt.plugins.sortselected/sort-lines]
               "ctrl-shift-up" [:paredit-plus.splice-sexp]
               "shift-forward-delete" [:editor.delete-group-right]}}}
               "shift-esc" [:clear-console]
