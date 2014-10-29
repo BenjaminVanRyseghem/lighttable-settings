@@ -41,6 +41,6 @@
               "ctrl-shift-right" [:subpar.grow.right]
               "ctrl-shift-s" [:lt.plugins.sortselected/sort-lines]
               "ctrl-shift-up" [:paredit-plus.splice-sexp]
-              "shift-forward-delete" [:editor.delete-group-right]}}}
               "shift-esc" [:clear-console]
+              "shift-forward-delete" [:editor.delete-group-right]
               "shift-tab" [:snippet.by_token]}}}
