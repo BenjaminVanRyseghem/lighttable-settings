@@ -18,8 +18,9 @@
      :editor {"alt-esc" [:clear-inline-results]
               "alt-shift-down" [:editor.sublime.swapLineDown]
               "alt-shift-up" [:editor.sublime.swapLineUp]
+              ;;               "alt-shift-up" [:editor.sublime.selectScope]
               "alt-shift-w" [:editor.watch.unwatch]
-              "alt-up" [:editor.sublime.selectScope]
+              "alt-up" [:editor.sublime.selectNextOccurrence]
               "alt-w" [:editor.watch.watch-selection]
               "cmd-/" [ :toggle-comment-selection
                         :editor.line-down ]
