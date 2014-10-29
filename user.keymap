@@ -40,3 +40,4 @@
               "ctrl-shift-right" [:subpar.grow.right]
               "ctrl-shift-up" [:paredit-plus.splice-sexp]
               "shift-forward-delete" [:editor.delete-group-right]}}}
+              "shift-tab" [:snippet.by_token]}}}
